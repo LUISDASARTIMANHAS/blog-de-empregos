@@ -1,0 +1,70 @@
+
+body{
+
+}
+
+tela-de-cadastro {
+    text-align: center;
+    margin: 50px auto;
+    overflow: hidden;
+    display: block;
+    padding: 15px;
+    padding-top: 80px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 25px;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+}
+
+.title-cadastro {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px,
+        rgb(255, 255, 255) 0px 0px 6px, rgb(255, 119, 255) 0px 0px 8px,
+        rgb(255, 0, 255) 0px 0px 12px, rgb(255, 0, 255) 0px 0px 16px,
+        rgb(255, 0, 255) 0px 0px 20px, rgb(255, 0, 255) 0px 0px 24px;
+    border-bottom: 3px solid purple;
+    margin: 10px;
+}
+
+.input-cadastro {
+    margin: 10px auto;
+    min-width: 50%;
+    width: 70%;
+    padding: 10px;
+    border-bottom: 3px solid purple;
+    border-top: 3px solid blue;
+    outline: none;
+    font-size: 12px;
+    transition: all 0.3s ease-out;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.input-cadastro:focus {
+    border-bottom: 3px solid orange;
+    font-size: 18px;
+}
+
+.input-cadastro:valid {
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+.btn-cadastro {
+    background-color: purple;
+    color: yellow;
+}
+
+.btn-recupear-senha {
+    color: red;
+    background: blue;
+}
+
+.btn-recupear-senha:hover {
+    color: gold;
+}
