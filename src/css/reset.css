@@ -8,6 +8,9 @@
     font-family: "Open Sans", sans-serif;
 }
 
+html {
+    background-color: #231E3D;
+}
 js {
     width: auto;
     display: inline;
