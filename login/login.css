@@ -1,7 +1,43 @@
-body{
+body {
     background-image: url("../src/assets/background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+form label {
+    text-align: left;
+    width: 70% !important;
+}
+form p {
+    text-align: left;
+    margin-right:45%;
+}
+
+form {
+    border: none;
+}
+
+teladelogin {
+    text-align: center;
+    margin: 50px auto;
+    overflow: hidden;
+    display: block;
+    padding: 15px;
+    padding-top: 80px;
+    background: #231E3D;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 25px;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+}
+
+a {
+    color: white;
+    margin-right:50%;
+    text-align: left;
 }
 
 .title-login {
@@ -40,37 +76,16 @@ body{
 }
 
 .btn-login {
-    background-color: purple;
-    color: yellow;
+    background-color: transparent;
+    color: white;
     border-width: 1px;
     border-style: solid;
     border-color: blueviolet;
-}
-
-.btn-recupear-senha {
-    color: red;
-    background: blue;
-}
-
-.btn-recupear-senha:hover {
-    color: gold;
-}
-
-teladelogin {
-    text-align: center;
-    margin: 50px auto;
-    overflow: hidden;
-    display: block;
-    padding: 15px;
-    padding-top: 80px;
-    background: #231E3D;
-    justify-content: center;
-    align-items: center;
-    width: 75%;
     border-radius: 25px;
-    z-index: 2;
-    color: white;
-    font-size: 18px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
 }
 
 .msg {
@@ -128,4 +143,3 @@ teladelogin {
 .form-group button:hover {
     background-color: #0056b3;
 }
-

@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <meta http-equiv="Refresh" content="120">
+    <!-- <meta http-equiv="Refresh" content="120"> -->
     <meta name="viewport" content="width=device-width, initial-scale=0.7" />
     <link rel="icon" href="" />
     <links>
@@ -20,7 +20,7 @@
         <h1 class="title-login">LOGIN</h1>
         <js id="msgError" class="msg-Error msg">Nenhum Erro Encontrado!</js>
         <js id="msgSuccess" class="msg-Success msg">Verificando...</js>
-        
+
         <label for="usuario">USUARIO</label>
         <input
                 class="input-login"
@@ -28,8 +28,8 @@
                 id="usuario"
                 placeholder="NOME"
                 required>
-    
-    
+
+
         <label for="senha"> SENHA </label>
         <input
                 class="input-login"
@@ -37,28 +37,25 @@
                 id="senha"
                 placeholder="******"
                 required>
-        
+
+        <a href="./recuperar-senha.html">Esqueceu Sua senha?</a>
+
         <button
                 type="submit"
                 class="btn btn-login"
-                id="autenticador" 
+                id="autenticador"
                 onclick="ClickMouseFUNCTIONS.play(); getData();">
             Entrar
         </button>
-        
-        <p>Perdeu Sua Senha?</p>
-        <button class="btn btn-recupear-senha"
-                onclick="redirectUrl('login/recuperar-senha.html')">
-            Trocar Senha!
+
+        <p>Ainda não possui uma conta?</p>
+
+        <button
+            class="btn btn-login"
+            onclick="redirectUrl('/cadastro')"> 
+        Cadastre-se
         </button>
         </form>
-        
-        <button
-            class="btn"
-            onclick="redirectUrl('/cadastro')"> 
-        Cadastrar
-        </button>
-        
         </teladelogin>
 
         <footer>
