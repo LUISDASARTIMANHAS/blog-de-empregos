@@ -2,7 +2,7 @@ function importarCss() {
     const links = document.querySelector("links");
     const fonte = "../src/css/"
     const srcs = [
-        "style",
+        "main",
         "reset"
     ];
     const srcsLinksFonts = [
