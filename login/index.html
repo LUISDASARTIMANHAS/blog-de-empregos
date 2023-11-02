@@ -13,10 +13,52 @@
     <title>Blog</title>
 </head>
 <body>
-    <main>
+    <teladelogin>
+        <form id="form">
+        <h1 class="title-login">LOGIN PINGOBRAS S.A</h1>
+        <js id="msgError" class="msg-Error msg">Nenhum Erro Encontrado!</js>
+        <js id="msgSuccess" class="msg-Success msg">Verificando...</js>
         
+        <label for="usuario">USUARIO</label>
+        <input
+                class="input-login"
+                type="text"
+                id="usuario"
+                placeholder="NOME"
+                required>
+    
+    
+        <label for="senha"> SENHA </label>
+        <input 
+                class="input-login"
+                type="password"
+                id="senha"
+                placeholder="******"
+                required>
         
-    </main>
+        <button
+                type="submit"
+                class="btn btn-login"
+                id="autenticador" 
+                onclick="ClickMouseFUNCTIONS.play(); getData();">
+            Entrar
+        </button>
+        
+        <p>Perdeu Sua Senha?</p>
+        <button class="btn btn-recupear-senha"
+                onclick="redirectUrl('login/recuperar-senha.html')">
+            Trocar Senha!
+        </button>
+        </form>
+        
+        <button
+            class="btn"
+            onclick="redirectUrl('/cadastro')"> 
+        Cadastrar
+        </button>
+        
+        </teladelogin>
+
         <footer>
             <div id="direitos" class="direitos">
                 <!-- auto import -->
@@ -28,6 +70,7 @@
 </body>
 
     <scripts>
+        <script src="./login.js"></script>
         <script src="/src/js/index.js" defer></script>
     </scripts>
     <autoscripts>
