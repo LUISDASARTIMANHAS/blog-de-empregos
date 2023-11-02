@@ -1,3 +1,7 @@
+main{
+    min-width: 50vw;
+    max-width: 100vw;
+}
 .cabecalho {
     background-color: aqua;
     width: 100%;
