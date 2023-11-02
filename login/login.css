@@ -1,0 +1,131 @@
+body{
+    background-image: url("../src/assets/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-login {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-style: italic;
+    text-shadow: rgb(255, 255, 255) 0px 0px 2px, rgb(255, 255, 255) 0px 0px 4px,
+        rgb(255, 255, 255) 0px 0px 6px, rgb(255, 119, 255) 0px 0px 8px,
+        rgb(255, 0, 255) 0px 0px 12px, rgb(255, 0, 255) 0px 0px 16px,
+        rgb(255, 0, 255) 0px 0px 20px, rgb(255, 0, 255) 0px 0px 24px;
+    border-bottom: 3px solid purple;
+    margin: 10px;
+}
+
+.input-login {
+    margin: 10px auto;
+    min-width: 50%;
+    width: 70%;
+    padding: 10px;
+    border-bottom: 3px solid purple;
+    border-top: 3px solid blue;
+    outline: none;
+    font-size: 12px;
+    transition: all 0.3s ease-out;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.input-login:focus {
+    border-bottom: 3px solid orange;
+    font-size: 18px;
+}
+
+.input-login:valid {
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+.btn-login {
+    background-color: purple;
+    color: yellow;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.btn-recupear-senha {
+    color: red;
+    background: blue;
+}
+
+.btn-recupear-senha:hover {
+    color: gold;
+}
+
+teladelogin {
+    text-align: center;
+    margin: 50px auto;
+    overflow: hidden;
+    display: block;
+    padding: 15px;
+    padding-top: 80px;
+    background: #231E3D;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    border-radius: 25px;
+    z-index: 2;
+    color: white;
+    font-size: 18px;
+}
+
+.msg {
+    text-align: center;
+    background: white;
+    padding: 7px;
+    display: none;
+    opacity: 70%;
+    width: 75%;
+    border-radius: 10px;
+}
+
+.msg-Error {
+    border-bottom: 3px solid red;
+    color: red;
+}
+
+.msg-Success {
+    border-bottom: 3px solid green;
+    color: green;
+}
+
+/* login */
+
+.form-group {
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #0056b3;
+}
+
