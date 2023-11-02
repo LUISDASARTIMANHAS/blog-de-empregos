@@ -10,7 +10,10 @@
     <links>
         <!-- auto import -->
     </links>
-    <link rel="stylesheet" href="./singup.css">
+    <link rel="stylesheet" type="text/css" href="https://pingobras.glitch.me/src/css/bootstrap.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="singup.css">
     <seo>
         <meta name="robots" content="index,follow" />
         <meta property="og:title" content="titulo CADASTRO" />
@@ -24,7 +27,7 @@
           content=""/>
         <meta name="twitter:card" content="summary" />
     </seo>
-    <title>Blog - Singup</title>
+    <title>Blog</title>
 </head>
 <body>
         <tela-de-cadastro>
@@ -32,66 +35,66 @@
             <h1 class="title-cadastro">CADASTRO</h1>
             <js id="msgSuccess" class="msg-Success msg">Verificando...</js>
             <js id="msgError" class="msg-Error msg">Nenhum Erro Encontrado!</js>
-
-            <label for="usuario">NOME</label>
-            <js id="msgNome" class="msg-Error msg">Nenhum Erro Encontrado!</js>
-            <input
-                    class="input-cadastro"
-                    onkeyup="verificar()"
-                    type="text"
-                    id="nome"
-                    placeholder="NOME" 
-                    required>
-
-            <label for="usuario">USUARIO</label>
-            <js id="msgUsuario" class="msg-Error msg">Nenhum Erro Encontrado!</js>
-            <input
-                    class="input-cadastro"
-                    onkeyup="verificar()"
-                    type="text"
-                    id="usuario"
-                    placeholder="Usuario que todos verão" 
-                    required>
-
-            <label for="senha"> E-MAIL </label>
-            <js id="msgEmail" class="msg-Error msg">Nenhum Erro Encontrado!</js>
-            <input
-                    class="input-cadastro"
-                    onkeyup="verificar()"
-                    type="email"
-                    id="email"
-                    placeholder="E-mail de recuperação" 
-                    required>
-
-            <label for="senha"> SENHA </label>
-            <js id="msgSenha" class="msg-Error msg">Nenhum Erro Encontrado!</js>
-            <input
-                    class="input-cadastro"
-                    onkeyup="verificar()"
-                    type="password"
-                    id="senha"
-                    placeholder="******"
-                    required>
-
-            <label for="confirmSenha"> CONFIRMAR SENHA </label>
-            <js id="msgConfirmSenha" class="msg-Error msg">Nenhum Erro Encontrado!</js>
-            <input
-                    class="input-cadastro"
-                    onkeyup="verificar()"
-                    type="password"
-                    id="confirm-Senha"
-                    placeholder="******"
-                    required>
-
-
-            <button
-                    class="btn btn-cadastro"
-                    onclick="ClickMouseFUNCTIONS.play(); cadastrar();">
+              
+              <label for="usuario">NOME</label>
+              <js id="msgNome" class="msg-Error msg">Nenhum Erro Encontrado!</js>
+              <input
+                     class="input-cadastro"
+                     onkeyup="verificar()"
+                     type="text"
+                     id="nome"
+                     placeholder="NOME" 
+                     required>
+              
+              <label for="usuario">USUARIO</label>
+              <js id="msgUsuario" class="msg-Error msg">Nenhum Erro Encontrado!</js>
+              <input
+                     class="input-cadastro"
+                     onkeyup="verificar()"
+                     type="text"
+                     id="usuario"
+                     placeholder="Usuario que todos verão" 
+                     required>
+        
+              <label for="senha"> E-MAIL </label>
+              <js id="msgEmail" class="msg-Error msg">Nenhum Erro Encontrado!</js>
+              <input 
+                     class="input-cadastro"
+                     onkeyup="verificar()"
+                     type="email" 
+                     id="email"
+                     placeholder="E-mail de recuperação" 
+                     required>
+        
+              <label for="senha"> SENHA </label>
+              <js id="msgSenha" class="msg-Error msg">Nenhum Erro Encontrado!</js>
+              <input 
+                     class="input-cadastro"
+                     onkeyup="verificar()"
+                     type="password" 
+                     id="senha"
+                     placeholder="******" 
+                     required>
+              
+              <label for="confirmSenha"> CONFIRMAR SENHA </label>
+              <js id="msgConfirmSenha" class="msg-Error msg">Nenhum Erro Encontrado!</js>
+              <input 
+                     class="input-cadastro"
+                     onkeyup="verificar()"
+                     type="password" 
+                     id="confirm-Senha"
+                     placeholder="******"
+                     required>
+           
+              
+              <button
+                      class="btn btn-cadastro"
+                      onclick="ClickMouseFUNCTIONS.play(); cadastrar();">
                 Cadastrar
-            </button>
+              </button>
             </form>
-
-        </tela-de-cadastro>
+          
+          </tela-de-cadastro>
         <footer>
             <div id="direitos" class="direitos">
                 <div class="loading ">
@@ -102,10 +105,11 @@
 </body>
 
     <scripts>
-        <script src="./cadastro.js" defer></script>
+        <!-- <script src="https://pingobras.glitch.me/src/js/links.js" defer></script> -->
+        <script src="https://pingobras.glitch.me/src/js/main.js" defer></script>
     </scripts>
     <autoscripts>
-        <script src="../src/js/load-scripts.js"></script>
+        <script src="https://pingobras.glitch.me/src/js/load-scripts.js"></script>
     </autoscripts>
     <host>
         <script src="https://pingobras.glitch.me/src/js/load-host.js" defer></script>
