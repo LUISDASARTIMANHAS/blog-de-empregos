@@ -11,6 +11,7 @@ user-interface {
 aside {
     background-color: blue;
     width: 25%;
+    max-width: 25%;
     max-height: 100vh;
     height: 100vh;
     color: white;
@@ -24,6 +25,7 @@ aside {
 main{
     background-color: white;
     width: 75%;
+    max-width: 75%;
     max-height: 100vh;
     height: 100vh;
     display:flex;
