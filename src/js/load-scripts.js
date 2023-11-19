@@ -1,6 +1,6 @@
 function importJs() {
     const autoscripts = document.querySelector("autoscripts");
-    const fonte = "/src/js/"
+    const fonte = "../src/js/"
     const srcs = [
         "load-css",
         "copyright",
