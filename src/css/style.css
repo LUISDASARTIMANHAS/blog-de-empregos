@@ -22,9 +22,7 @@ main {
     font-size: 15px;
 }
 
-.cabecalho input {
-    margin: 2px;
-}
+
 
 .search {
    background-color: rgb(21, 255, 0);
@@ -32,22 +30,53 @@ main {
    margin: 5px;
    display: flex;
    align-items: center;
-   gap: 6px;
+   justify-content: center;
+   background-color: rgb(55, 0, 255);
+   
 }
 
-.search .pesquisaTxt {
-    width: 540px;
+.pesquisaTxt {
+    width: 0;
+    line-height: 30px;
     border: none;
     outline: none;
     background: none;
-    padding: 5px;
+    padding: 0px;
     color: white;
+    transition: 2s;
     
 }
 
-.cabecalho i {
-    margin-right: 10px;
+.searchBtn {
+    color: #00a8ff;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(55, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.search:hover > .pesquisaTxt {
+    width: 540px;
+    padding: 0 6px;
+    
+    
+
+}
+
+.search:hover > .searchBtn {
+    background: white;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* .cabecalho i {
+    margin-right: px;
+} */
 
 .menu {
     text-decoration: none;
