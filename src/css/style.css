@@ -22,6 +22,10 @@ main {
     font-size: 15px;
 }
 
+.cabecalho input {
+    padding: 5px;
+}
+
 .menu {
     text-decoration: none;
     list-style: none;
