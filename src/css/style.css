@@ -23,7 +23,30 @@ main {
 }
 
 .cabecalho input {
+    margin: 2px;
+}
+
+.search {
+   background-color: rgb(21, 255, 0);
+   border-radius: 15px;
+   margin: 5px;
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+
+.search .pesquisaTxt {
+    width: 540px;
+    border: none;
+    outline: none;
+    background: none;
     padding: 5px;
+    color: white;
+    
+}
+
+.cabecalho i {
+    margin-right: 10px;
 }
 
 .menu {
@@ -57,7 +80,7 @@ main {
     background-color: cadetblue;
 }
 
-.container .empregoSeach {
+.container .empregoSearch {
     width: 100%;
     height: 100%;
     background-color: cyan;

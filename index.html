@@ -7,6 +7,7 @@
     <meta http-equiv="Refresh" content="120">
     <meta name="viewport" content="width=device-width, initial-scale=0.7" />
     <link rel="icon" href="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <links>
         <!-- auto import -->
     </links>
@@ -18,9 +19,15 @@
 <body>
     <header class="cabecalho">
             <a href=""><h1>empregos</h1></a>
-            <input
+
+            <div class="search">
+                <input class="pesquisaTxt"
             type="text"
             placeholder="Pesquise no JobHub ou digite um URL">
+            <i class="fas fa-search"></i>
+
+            </div>
+            
             <nav>
                 <ul class="menu">
                     <li><a href="">HOME</a></li>
@@ -35,7 +42,7 @@
         <div class="container">
             
             <div class="banner"></div>
-            <div class="empregoSeach">
+            <div class="empregoSearch">
                 <div class="infoNovidades">
                     <div class="emDia"></div>
                     <div class="outrosEm"></div>
