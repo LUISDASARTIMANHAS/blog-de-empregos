@@ -322,16 +322,6 @@ form {
     color: green;
 }
 
-
-label {
-    color: red;
-    cursor: help;
-    transition: all 0.3s ease-out;
-    display: block;
-    text-decoration: underline;
-    font-size: 18px;
-}
-
 p {
     margin: 5px;
 }
