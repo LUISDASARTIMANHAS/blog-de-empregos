@@ -289,7 +289,6 @@ form {
     flex-wrap: wrap;
     align-items: center;
     overflow: hidden;
-    border-bottom: 7px solid white;
     font-size: 18px;
 }
 
