@@ -154,7 +154,10 @@ body {
     margin: 1rem auto 0;
 }
 
-/* input {
+input .auto,
+tela input,
+teladelogin input,
+teladecadastro input {
     margin: 10px auto;
     min-width: 50%;
     width: 70%;
@@ -164,10 +167,13 @@ body {
     transition: all 0.3s ease-out;
     border-radius: 25px;
     text-align: center;
-} */
-/* input:focus {
+}
+input .auto,
+tela input,
+teladelogin input,
+teladecadastro input:focus {
     font-size: 18px;
-} */
+}
 
 .info-TR {
     font-style: italic;
@@ -283,7 +289,6 @@ form {
     flex-wrap: wrap;
     align-items: center;
     overflow: hidden;
-    border-bottom: 7px solid white;
     font-size: 18px;
 }
 
@@ -314,16 +319,6 @@ form {
 .msg-Success {
     border-bottom: 3px solid green;
     color: green;
-}
-
-
-label {
-    color: red;
-    cursor: help;
-    transition: all 0.3s ease-out;
-    display: block;
-    text-decoration: underline;
-    font-size: 18px;
 }
 
 p {
@@ -670,20 +665,26 @@ button:hover,
     }
 }
 
-/* a {
+a .auto,
+tela a,
+teladelogin a,
+teladecadastro a{
     border-radius: 25px;
     margin: 5px;
     padding: 7px;
     color: purple;
     align-items: center;
     text-align: justify;
-} */
+}
 
-/* a:hover {
+a .auto,
+tela a,
+teladelogin a,
+teladecadastro a:hover {
     transform: translateY(5px);
     transition: all 1s ease-out;
     opacity: 1;
-} */
+}
 
 /* ==================== footer css ==================== */
 
