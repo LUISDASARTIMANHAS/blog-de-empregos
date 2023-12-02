@@ -14,34 +14,38 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/main.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="./src/css/scroll.css">
     <title>Blog</title>
 </head>
 <body>
+    
     <header class="cabecalho">
-            <a href=""><h1>empregos</h1></a>
-
-            <div class="search">
-                <input class="pesquisaTxt"
-            type="text"
-            placeholder="Pesquise no JobHub ou digite um URL">
+        <a href=""><h1>empregos</h1></a>
+        <div class="search" id="search">
+            <input class="pesquisaTxt"
+            type="text" placeholder="Pesquise no JobHub ou digite um URL">
             <a class="searchBtn" href="#"><i class="fas fa-search"></i></a>
-            
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="">HOME</a></li>
+                <li>
+                    <a href="">SOBRE</a>
+                </li>
+            </ul>
+        </nav>
 
-            </div>
+    </header>
+    <header class="pesqA">
+        <input class="pesquisaTxt2" type="text" placeholder="Pesquise no JobHub ou digite um URL">
+        <a class="searchBtn2" href="#"><i class="fas fa-search" id="ic2"></i></a>
             
-            <nav>
-                <ul class="menu">
-                    <li><a href="">HOME</a></li>
-                    <li>
-                        <a href="">SOBRE</a>
-                    </li>
-                </ul>
-
-            </nav>
-        </header>
+    </header>
     <main>
         <div class="container">
-            
+
             <div class="banner"></div>
             <div class="empregoSearch">
                 <div class="infoNovidades">
