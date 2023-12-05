@@ -10,6 +10,10 @@ font-family: 'Secular One', sans-serif;
 
 /* ==================== presets css ==================== */
 
+html{
+    scroll-behavior: smooth;
+}
+
 js {
     width: auto;
     display: inline;
