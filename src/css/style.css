@@ -12,9 +12,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    z-index: 1;
 }
 
 .cabecalho a {
@@ -27,25 +24,7 @@ main {
 
 
 
-.pesqA {
-    width: 100%;
-    height: 200px;
-    justify-content: center;
-    align-items: center;
-    background-color: chocolate;
-    
-}
-
-
-
-
-.mostrar {
-    opacity: 1;
-    transition: all 2ms;
-}
-
-
-.search  {
+.search {
    background-color: rgb(21, 255, 0);
    border-radius: 15px;
    margin: 5px;
@@ -67,17 +46,6 @@ main {
     transition: 2s;
     
 }
-.pesquisaTxt2 {
-    width: 600px;
-    height: 50px;
-    border-radius: 20px;
-    outline: none;
-    padding: 10px;
-    color: rgb(0, 0, 0);
-    
-    
-    
-}
 
 .searchBtn {
     color: #00a8ff;
@@ -90,20 +58,6 @@ main {
     justify-content: center;
     align-items: center;
 }
-
-.searchBtn2 {
-    color: #111a1f;
-    float: right;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-
 
 .search:hover > .pesquisaTxt {
     width: 540px;
@@ -139,9 +93,10 @@ main {
 }
 
 .container {
-    width: 90vw;
+    width: 90%;
     height: 100%;
     background-color: brown;
+    left: 5%;
     position: relative;
 
 
