@@ -9,7 +9,7 @@ user-interface {
     align-items:flex-start;
 }
 aside {
-    background-color: blue;
+    background-color: dodgerblue;
     width: 25%;
     max-width: 25%;
     max-height: 100vh;
@@ -23,7 +23,7 @@ aside {
     padding: 10px;
 }
 main{
-    background-color: white;
+    background-color: snow;
     width: 75%;
     max-width: 75%;
     max-height: 100vh;
