@@ -1,19 +1,11 @@
-main {
-    /* auto expanssiva */
-    width: auto;
-    min-width: 50vw;
-    max-width: 100vw;
-}
-
 .cabecalho {
     background-color: aqua;
     width: 100%;
     height: 35px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
-
 .cabecalho a {
     text-decoration: none;
 }
@@ -22,74 +14,19 @@ main {
     font-size: 15px;
 }
 
-
-
-.search {
-   background-color: rgb(21, 255, 0);
-   border-radius: 15px;
-   margin: 5px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: rgb(55, 0, 255);
-   
-}
-
-.pesquisaTxt {
-    width: 0;
-    line-height: 30px;
-    border: none;
-    outline: none;
-    background: none;
-    padding: 0px;
-    color: white;
-    transition: 2s;
-    
-}
-
-.searchBtn {
-    color: #00a8ff;
-    float: right;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: rgb(55, 0, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.search:hover > .pesquisaTxt {
-    width: 540px;
-    padding: 0 6px;
-    
-    
-
-}
-
-.search:hover > .searchBtn {
-    background: white;
-    width: 30px;
-    height: 30px;
-}
-
-
-/* .cabecalho i {
-    margin-right: px;
-} */
-
-.menu {
+ .menu   { 
     text-decoration: none;
     list-style: none;
-    display: flex;
+    display: flex; 
+    
 }
 
 
-.menu a {
-    margin: 5px;
+.menu a { 
+    margin: 5px; 
     padding: 5px;
-
-
+    
+    
 }
 
 .container {
@@ -98,8 +35,8 @@ main {
     background-color: brown;
     left: 5%;
     position: relative;
-
-
+    
+    
 }
 
 .container .banner {
@@ -109,7 +46,7 @@ main {
     background-color: cadetblue;
 }
 
-.container .empregoSearch {
+.container .empregoSeach {
     width: 100%;
     height: 100%;
     background-color: cyan;
@@ -122,7 +59,6 @@ main {
 .empregoSeach div {
     margin: 5px 5px 5px 0;
 }
-
 .empregoSeach .infoNovidades {
     background-color: black;
     width: 70%;
