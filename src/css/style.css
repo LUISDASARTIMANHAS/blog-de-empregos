@@ -81,6 +81,7 @@
 
 .search:hover {
     border: 2px solid white;
+    transition: 1s;
 }
 
 
