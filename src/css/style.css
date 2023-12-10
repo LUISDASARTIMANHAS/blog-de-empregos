@@ -1,17 +1,27 @@
 .cabecalho {
-    background-color: aqua;
+    background-color:rgb(1, 0, 49) ;
     width: 100%;
-    height: auto;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center; 
+    font-size: 15px;
+   
 }
-.cabecalho a {
+/* .cabecalho a {
     text-decoration: none;
-}
+    
+} */
 
 .cabecalho h1 {
     font-size: 15px;
+    color: white;
+    margin: 5px;
+    
+}
+
+.nameS {
+    text-decoration: none;
 }
 
 .search {
@@ -21,6 +31,7 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    
     
 }
 
@@ -64,7 +75,12 @@
 }
 
 .search:hover > .iconeB {
-    background-color: aliceblue;
+    background-color: white;
+    
+}
+
+.search:hover {
+    border: 2px solid white;
 }
 
 
@@ -73,15 +89,30 @@
     list-style: none;
     display: flex; 
     
+    
 }
 
 
 .menu a { 
     margin: 5px; 
-    padding: 5px;
+    padding: 8px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     
     
 }
+
+.entraBt{
+    background-color: blue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid rgb(44, 3, 158) ;
+}
+
+
 
 .container {
     width: 100%;
@@ -105,15 +136,26 @@
     height: 200px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(1, 0, 49);
+    background-color: rgb(44, 3, 158);
     display: flex;
     flex-direction: column;
-    border: 5px  solid rgb(44, 3, 158);
+    
     
 }
 
 .busca h1 {
     color: white;
+    
+}
+
+.busca .fundo{
+    background-color:rgb(1, 0, 49);
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
