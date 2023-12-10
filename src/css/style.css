@@ -1,7 +1,7 @@
 .cabecalho {
     background-color: aqua;
     width: 100%;
-    height: 35px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center; 
@@ -14,7 +14,61 @@
     font-size: 15px;
 }
 
- .menu   { 
+.search {
+    background-color: rgb(8, 8, 80);
+    border-radius: 35px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.Ptext {
+    width: 0px;
+    line-height: 30px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 ;
+    color: white;
+    transition: 2s;
+   
+    
+
+}
+
+.iconeB {
+    color: #00a8ff;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(0, 110, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.lupaP img {
+   width: 10px;
+   height: 10px;
+}
+
+.search:hover > .Ptext {
+    width: 500px;
+    padding: 2px 2px 2px 15px;
+
+}
+
+.search:hover > .iconeB {
+    background-color: aliceblue;
+}
+
+
+.menu   { 
     text-decoration: none;
     list-style: none;
     display: flex; 
@@ -30,20 +84,82 @@
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     height: 100%;
     background-color: brown;
-    left: 5%;
     position: relative;
     
     
 }
+.loP {
+    display: flex;
+    font-size: 25px;
+    float: left;
+    margin: 5px;
+    
+    
+}
 
-.container .banner {
+.container .busca {
     width: 100%;
     height: 200px;
     justify-content: center;
-    background-color: cadetblue;
+    align-items: center;
+    background-color: rgb(1, 0, 49);
+    display: flex;
+    flex-direction: column;
+    border: 5px  solid rgb(44, 3, 158);
+    
+}
+
+.busca h1 {
+    color: white;
+}
+
+.logo {
+    color: white;
+    padding-right: 20px;
+
+}
+
+
+.pesquisa {
+    background-color: #ffffff;
+    width: 580px;
+    height: auto;
+    padding: 8px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.pesquisa a {
+    font-weight: bolder;
+    text-decoration: none;
+    
+    
+}
+
+.pesquisa p {
+    font-size: 12px;
+}
+.Ptext2 {
+    width: 500px;
+    line-height: 25px;
+    background: none;
+    outline: none;
+    padding: 0;
+    border: 0;
+    margin-left: 15px;
+}
+
+.iconeB2 {
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .container .empregoSeach {
