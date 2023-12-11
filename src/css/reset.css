@@ -141,6 +141,11 @@ body {
     width: 100%;
 }
 
+main {
+    width: 100%;
+    max-width: 100%;
+}
+
 .conteudo {
     position: relative;
     display: flex;
@@ -169,6 +174,7 @@ teladecadastro input {
     border-radius: 25px;
     text-align: center;
 }
+
 input .auto,
 tela input,
 teladelogin input,
@@ -214,6 +220,49 @@ list {
     width: 100%;
     cursor: help;
     font-size: 17px;
+}
+
+box {
+    background-color: white;
+    border-color: black;
+    max-width: 25%;
+    /* padding: 7px; */
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+box h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+box img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+box ul {
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 100%;
+    padding:10px;
+    margin-left: 10px;
+}
+
+box ul li {
+    margin: 10px;
+}
+
+.autoEmpregos{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
 }
 
 info {
@@ -669,7 +718,7 @@ button:hover,
 a .auto,
 tela a,
 teladelogin a,
-teladecadastro a{
+teladecadastro a {
     border-radius: 25px;
     margin: 5px;
     padding: 7px;
