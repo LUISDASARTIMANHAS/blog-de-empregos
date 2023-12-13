@@ -105,12 +105,21 @@
     
 }
 
+.menu a:hover {
+    color: red;
+}
+
 .entraBt{
     background-color: blue;
     border-radius: 15px;
     margin: 5px;
     padding: 5px;
     border: 2px solid rgb(44, 3, 158) ;
+}
+
+.entraBt:hover {
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
 
