@@ -1,6 +1,6 @@
 html {
     background-color: #231E3D;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 * {
@@ -11,11 +11,11 @@ html {
 }
 
 main {
-  width: 100%;
-  max-width: 100%;
+    width: 100%;
+    max-width: 100%;
 }
 
-body{
+body {
     position: relative;
     display: flex;
     flex-direction: column;
