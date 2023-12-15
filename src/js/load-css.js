@@ -6,7 +6,8 @@ function importarCss() {
         "reset"
     ];
     const srcsLinksFonts = [
-        "4.7.0/css/font-awesome.min.css"
+        "stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+        "cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     ];
 
     for (let i = 0; i < srcs.length; i++) {
@@ -25,7 +26,7 @@ function importarCss() {
         const head = document.querySelector("head");
         var newLink = document.createElement("link");
 
-        newLink.setAttribute("href", "https://stackpath.bootstrapcdn.com/font-awesome/" + srcsLinksFonts[i]);
+        newLink.setAttribute("href", "https://" + srcsLinksFonts[i]);
         newLink.rel = "stylesheet";
         head.appendChild(newLink);
 
