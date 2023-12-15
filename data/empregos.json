@@ -1,0 +1,21 @@
+[
+    {
+        "empresa": "technology S.A",
+        "setor": "auxiliar de servicos gerais",
+        "requisitos": "informática básica, disponibilidade de horário",
+        "salario": 1200,
+        "previewImg": ""
+    },
+    {
+        "empresa": "Tech importados",
+        "setor": "operador de caixa",
+        "requisitos": "",
+        "salario": 2000
+    },
+    {
+        "empresa": "technology S.A",
+        "setor": "auxiliar de manutenção",
+        "requisitos": "",
+        "salario": 1300
+    }
+]

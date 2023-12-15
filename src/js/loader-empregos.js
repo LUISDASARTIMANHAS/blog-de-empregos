@@ -1,27 +1,19 @@
 
 const autoEmpregos = document.getElementById("autoEmpregos");
 const fonte = "../src/js/"
-const database = [
-    {
-        "empresa": "technology S.A",
-        "setor": "auxiliar de servicos gerais",
-        "requisitos": "informática básica, disponibilidade de horário",
-        "salario": 1200,
-        "previewImg": ""
-    },
-    {
-        "empresa": "Tech importados",
-        "setor": "operador de caixa",
-        "requisitos": "",
-        "salario": 2000
-    },
-    {
-        "empresa": "technology S.A",
-        "setor": "auxiliar de manutenção",
-        "requisitos": "",
-        "salario": 1300
+const database = fetch("./data/empregos.json")
+.then((response) => {
+    if (response.ok) {
+        return response.json();
+    } else {
+        return response.text();
     }
-]
+})
+.then((data) => {
+    console.log("DATA RESPONSE: ");
+    console.log(data);
+})
+.catch((error) => alert(error));
 
 for (let i = 0; i < database.length; i++) {
     const emprego = database[i];
