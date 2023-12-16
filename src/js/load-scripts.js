@@ -3,7 +3,8 @@ function importJs() {
     const fonte = "../src/js/"
     const srcs = [
         "load-css",
-        "copyright"
+        "copyright",
+        "searchbar"
     ]
     const importFiles = [
         "functions"
