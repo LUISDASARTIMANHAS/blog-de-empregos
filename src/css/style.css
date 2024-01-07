@@ -245,8 +245,21 @@
 .infoNovidades .emDia {
     background-color: chartreuse;
     width: 100%;
-    height: 200px;
+    height: 400px;
 }
+.imgEm {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(173, 173, 173);
+
+}
+
+.quadroEm {
+    background-color: aqua;
+    width: 800px;
+    height: 360px;
+}
+
 
 .infoNovidades .outrosEm {
     background-color: blue;
