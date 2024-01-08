@@ -10,7 +10,7 @@ function search(pesq) {
         mode: "cors",
         headers: {
             "content-type": "application/json;charset=utf-8",
-            "Authorization": "APIKey20231030",
+            "Authorization": "APIKeySearchSystem20240701",
             "key": (date.getUTCHours() * date.getFullYear()) * id,
             "id": id
         }
