@@ -11,7 +11,7 @@ function search(pesq) {
         headers: {
             "content-type": "application/json;charset=utf-8",
             "Authorization": "APIKey20231030",
-            "key": (date.getHours() * date.getFullYear()) * id,
+            "key": (date.getUTCHours() * date.getFullYear()) * id,
             "id": id
         }
     };
