@@ -63,6 +63,10 @@ function loaderEmprego(database) {
         } else {
             imgElement.src = "./src/assets/no-image.jpeg"
         }
+        if(i > 6){
+            boxElement.hidden = true
+        }
+
         boxElement.appendChild(imgElement);
 
         h1Element.textContent = setor
