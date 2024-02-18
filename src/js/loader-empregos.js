@@ -58,7 +58,7 @@ function loaderEmprego(database) {
         const li2Element = document.createElement("li");
         const requisitosElement = document.createElement("li");
 
-        if ((previewImg) && (n != "")) {
+        if ((previewImg) && (previewImg != "")) {
             imgElement.src = previewImg
         } else {
             imgElement.src = "./src/assets/no-image.jpeg"
