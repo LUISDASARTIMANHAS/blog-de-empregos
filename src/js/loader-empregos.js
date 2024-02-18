@@ -1,4 +1,6 @@
 function getDataEmpregos() {
+    const date = new Date();
+    const id = Math.floor(Math.random() * 50000);
     const url = "https://pingobras-sg.glitch.me/api/blog-de-empregos/empregos"
     const options = {
         method: "GET",
@@ -6,6 +8,8 @@ function getDataEmpregos() {
         headers: {
             "content-type": "application/json;charset=utf-8",
             "Authorization": "blogDeEmpregosApiKey20240101",
+            "key": (date.getUTCHours() * date.getFullYear()) * id,
+            "id": id
         }
     };
 
