@@ -234,12 +234,14 @@
 }
 .empregoSeach .infoNovidades {
     background-color: black;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 
 .empregoSeach .postEm {
-    width: 30%;
+    width: 100%;
+    height: 500px;
+    
     background-color: burlywood;
 }
 
@@ -259,11 +261,11 @@
 
 .textDia  {
     padding: 10px;
-    width: 250px;
+    width: 180px;
     background-color: #00a8ff;
     left: 80px;
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
 }
 .imgEm {
     width: 100%;
@@ -275,14 +277,14 @@
 
 .infoNovidades .quadroEm {
     margin: 10px 0 10px 0;
-    left: 30px;
+    left: calc(50vh - 250px);
     position: relative;
 }
 
 .quadroEm {
     background-color: aqua;
-    width: 800px;
-    height: 360px;
+    width: 1200px;
+    height: 380px;
     border: solid black;
     border-radius: 20px;
     transition: 0.2s all ease-in-out;
