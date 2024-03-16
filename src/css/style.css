@@ -128,7 +128,7 @@
 .container {
     width: 100%;
     height: 100%;
-    background-color: brown;
+    background-color: rgb(44, 3, 158);
     position: relative;
     
     
@@ -234,12 +234,14 @@
 }
 .empregoSeach .infoNovidades {
     background-color: black;
-    width: 70%;
+    width: 100%;
     height: 100%;
 }
 
 .empregoSeach .postEm {
-    width: 30%;
+    width: 100%;
+    height: 500px;
+    
     background-color: burlywood;
 }
 
@@ -259,11 +261,11 @@
 
 .textDia  {
     padding: 10px;
-    width: 250px;
+    width: 180px;
     background-color: #00a8ff;
     left: 80px;
     position: relative;
-    font-size: 30px;
+    font-size: 20px;
 }
 .imgEm {
     width: 100%;
@@ -275,14 +277,14 @@
 
 .infoNovidades .quadroEm {
     margin: 10px 0 10px 0;
-    left: 30px;
+    left: calc(50vh - 250px);
     position: relative;
 }
 
 .quadroEm {
     background-color: aqua;
-    width: 800px;
-    height: 360px;
+    width: 1200px;
+    height: 380px;
     border: solid black;
     border-radius: 20px;
     transition: 0.2s all ease-in-out;
@@ -382,11 +384,64 @@
 }
 
 .container .embreve {
-    background-color: violet;
+    background-color:rgb(1, 0, 49);
     width: 100%;
-    height: 100px;
+    height: 200px;
 }
 
 .embreve {
     margin: 5px 5px 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
 }
+
+
+.embreve h1  {
+    margin: 25px;
+    color: #ffffff;
+}
+
+.embreve div {
+    margin: 25px;
+}
+
+.atalhos {
+    flex-direction: column;
+    
+}
+
+.links h2 {
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.links a {
+    color: #ffffff;
+}
+.atalhos h2 {
+    margin: 25px;
+    
+}
+.atalhos li {
+    margin: 10px;
+}
+
+.atalhos a:hover {
+    color: red;
+}
+
+.at-login {
+
+    display: flex;
+}
+
+.at-login a {
+    color: #ffffff;
+}
+
+.at-login a:hover {
+    color: red;
+}
+
