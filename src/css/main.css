@@ -23,3 +23,47 @@ body {
     justify-content: center;
     width: 100%;
 }
+
+
+box {
+    background-color: white;
+    border-color: black;
+    max-width: 25%;
+    /* padding: 7px; */
+    margin: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+box h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+box img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+box ul {
+    text-align: center;
+    font-style: italic;
+    text-transform: capitalize;
+    width: 100%;
+    padding:10px;
+    margin-left: 10px;
+}
+
+box ul li {
+    margin: 10px;
+}
+
+.autoEmpregos{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+}
