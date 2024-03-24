@@ -1,7 +1,7 @@
-html {
+/* html {
     background-color: #231E3D;
     scroll-behavior: smooth;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -25,10 +25,47 @@ body {
 }
 
 
+.doDia{
+    width: 1800px;
+    height: 480px;
+    display: flex;
+    max-width: 100%;
+}
+
+
+
+.doDia img {
+    width: 40%;
+    display: flex;
+    
+    
+}
+
+.infoDia h1{
+    margin: 40px;
+}
+
+
+.emRecente{
+    width: 25%;
+    
+}
+
+box:hover {
+    background-color:rgb(1, 0, 49);
+    color: #fff;
+    cursor: pointer;
+}
+
+box h1:hover {
+    color: rgb(255, 0, 0);
+}
+
+
 box {
     background-color: white;
     border-color: black;
-    max-width: 25%;
+   
     /* padding: 7px; */
     margin: 10px;
     border-width: 3px;
@@ -41,6 +78,7 @@ box h1 {
     text-transform: capitalize;
     text-decoration: underline;
     font-size: 24px;
+    
 }
 
 box img {

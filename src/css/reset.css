@@ -122,10 +122,10 @@ fieldset[disabled] .disabled {
     font-family: "Open Sans", sans-serif;
 }
 
-html {
+/* html {
     background-color: #231E3D;
     scroll-behavior: smooth;
-}
+} */
 
 js {
     width: auto;

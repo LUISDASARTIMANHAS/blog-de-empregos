@@ -75,17 +75,30 @@
             </div>
             <div class="empregoSeach">
                 <div class="infoNovidades">
+                    
                     <div class="emDia">
-                        <h2 class="textDia">Emprego do dia</h2>
-                        <div class="quadroEm">
-                            <img class="imgEm" src="" alt="">
-                            <h1>titulo do emprego</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae soluta eum quod ullam mollitia, ad repudiandae facere ipsam assumenda dolor id incidunt possimus ipsa? Quidem accusantium est cupiditate labore minima?</p>
-                        </div>
-                    </div>
-                    <div class="postEm">
                         <div class="autoEmpregos" id="autoEmpregos">
-                            <box id="errorBox">
+                            <box class="doDia" id="errorBox">
+                                <div class="infoDia">
+                                    <h1>Lorem ipsum dolor sit, amet</h1>
+                                    <ul>
+                                        <li>Ops! Parece que essa página está em uma aventura. Vamos tentar encontrar o caminho de volta juntos?</li>
+                                        <li>Estamos fazendo uma pausa para um breve descanso. Voltaremos em breve, mais fortes do que nunca! Enquanto isso, que tal tomar um café?</li>
+                                    </ul>
+                                </div>
+                               
+                                <img src="./src/assets/no-image.jpeg" alt="Imagem de prévia do emprego">
+                            </box>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Empregos Recentes -->
+
+                    <div class="recenteEm">
+                        <h2 class="textRecente">Emprego Recentes</h2>
+                        <section class="autoEmpregos" id="autoEmpregosRecentes">
+                            <box class="emRecente" id="errorBoxRecentes">
                                 <img src="./src/assets/no-image.jpeg" alt="Imagem de prévia do emprego">
                                 <h1>Not Found 404</h1>
                                 <ul>
@@ -93,35 +106,21 @@
                                     <li>Estamos fazendo uma pausa para um breve descanso. Voltaremos em breve, mais fortes do que nunca! Enquanto isso, que tal tomar um café?</li>
                                 </ul>
                             </box>
-                        </div>
+                        </section>
+                        
                     </div>
                     <div class="outrosEm">
-                        <h3 class="textOu">Emprego do dia</h2>
-                        <div class="outrosQ">
-                            <div class="quadroOu">
-                                <img class="imgOu" src="" alt="">
-                                <h1>titulo do emprego</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae soluta eum quod ullam mollitia, ad repudiandae facere ipsam assumenda dolor id incidunt possimus ipsa? Quidem accusantium est cupiditate labore minima?</p>
-                            </div>
-                            <div class="quadroOu">
-                                <img class="imgOu" src="" alt="">
-                                <h1>titulo do emprego</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae soluta eum quod ullam mollitia, ad repudiandae facere ipsam assumenda dolor id incidunt possimus ipsa? Quidem accusantium est cupiditate labore minima?</p>
-                            </div>
-                        </div>
-                        <div class="separaQ">
-                            <div class="quadroOu">
-                                <img class="imgOu" src="" alt="">
-                                <h1>titulo do emprego</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae soluta eum quod ullam mollitia, ad repudiandae facere ipsam assumenda dolor id incidunt possimus ipsa? Quidem accusantium est cupiditate labore minima?</p>
-                            </div>
-                            <div class="quadroOu">
-                                <img class="imgOu" src="" alt="">
-                                <h1>titulo do emprego</h1>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae soluta eum quod ullam mollitia, ad repudiandae facere ipsam assumenda dolor id incidunt possimus ipsa? Quidem accusantium est cupiditate labore minima?</p>
-                            </div>
-
-                        </div>
+                        <h3 class="textOu">Outros empregos</h2>
+                        <section class="autoEmpregos" id="autoEmpregosOutros">
+                            <box class="outroQ" id="errorBoxOutros">
+                                <img src="./src/assets/no-image.jpeg" alt="Imagem de prévia do emprego">
+                                <h1>Not Found 404</h1>
+                                <ul>
+                                    <li>Ops! Parece que essa página está em uma aventura. Vamos tentar encontrar o caminho de volta juntos?</li>
+                                    <li>Estamos fazendo uma pausa para um breve descanso. Voltaremos em breve, mais fortes do que nunca! Enquanto isso, que tal tomar um café?</li>
+                                </ul>
+                            </box>
+                        </section>
                     </div>
                 </div>
                 
@@ -158,34 +157,16 @@
         </div>
     </main>
 
-    <section class="autoEmpregos" id="autoEmpregosRecentes">
-        <box id="errorBoxRecentes">
-            <img src="./src/assets/no-image.jpeg" alt="Imagem de prévia do emprego">
-            <h1>Not Found 404</h1>
-            <ul>
-                <li>Ops! Parece que essa página está em uma aventura. Vamos tentar encontrar o caminho de volta juntos?</li>
-                <li>Estamos fazendo uma pausa para um breve descanso. Voltaremos em breve, mais fortes do que nunca! Enquanto isso, que tal tomar um café?</li>
-            </ul>
-        </box>
-    </section>
-    <section class="autoEmpregos" id="autoEmpregosOutros">
-        <box id="errorBoxOutros">
-            <img src="./src/assets/no-image.jpeg" alt="Imagem de prévia do emprego">
-            <h1>Not Found 404</h1>
-            <ul>
-                <li>Ops! Parece que essa página está em uma aventura. Vamos tentar encontrar o caminho de volta juntos?</li>
-                <li>Estamos fazendo uma pausa para um breve descanso. Voltaremos em breve, mais fortes do que nunca! Enquanto isso, que tal tomar um café?</li>
-            </ul>
-        </box>
-    </section>
-<!--         <footer>
+    
+   
+        <!-- <footer>
             <div id="direitos" class="direitos">
                 <div class="loading ">
                     <p class="load "></p>
                 </div>
             </div>
-        </footer> -->
-    
+        </footer>
+     -->
 
 </body>
 
